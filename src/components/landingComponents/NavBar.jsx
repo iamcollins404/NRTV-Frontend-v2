@@ -7,8 +7,7 @@ import MobileNavigation from '../account/mobileNavigation';
 const NavBar = () => {
     const [showMenuIcon, setshowMenuIcon] = useState(false);
     return (
-      <div>
-          <header className="bg-black sticky top-0 z-50 py-3 md:py-3">
+        <header className="bg-black sticky top-0 z-50 py-3 md:py-3">
             <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
                 <div className="relative flex items-center justify-between">
                     <div className="flex-shrink-0">
@@ -194,10 +193,9 @@ const NavBar = () => {
                     </nav>
                 }
             </div>
-        </header>
 
-<MobileNavigation/>
-      </div>
+            <MobileNavigation />
+        </header>
 
     )
 }
