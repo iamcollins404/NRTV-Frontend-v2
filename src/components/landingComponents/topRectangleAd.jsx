@@ -2,8 +2,8 @@ import React from 'react'
 
 function topRectangleAd() {
     return (
-        <div className="topRectangleAd font-bold text-center my-10">
-            <h5>Advertise Here</h5>
+        <div className="bg-black topRectangleAd font-bold text-center my-10">
+            <h5 className='text-white'>Advertise Here</h5>
         </div>
     )
 }

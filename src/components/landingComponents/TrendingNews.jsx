@@ -32,14 +32,14 @@ function TrendingNews() {
     });
 
     return (
-        <section className="py-12 bg-white sm:py-16 lg:py-20">
+        <section className="py-12 bg-black sm:py-16 lg:py-20">
 
             <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
                 <div className="mb-12 flex items-center justify-center text-center md:justify-between sm:text-left">
-                    <h2 className="text-2xl font-bold text-gray-900 sm:text-3xl">News Highlights</h2>
+                    <h2 className="text-2xl font-bold text-white sm:text-3xl">News Highlights</h2>
 
                     <div className="hidden md:block">
-                        <a href="#" title="" className="inline-flex items-center p-1 -m-1 text-xs font-bold tracking-wide text-gray-400 uppercase transition-all duration-200 rounded hover:text-gray-900 focus:ring-2 focus:text-gray-900 focus:ring-gray-900 focus:ring-offset-2 focus:outline-none" role="button">
+                        <a href="#" title="" className="inline-flex items-center p-1 -m-1 text-xs font-bold tracking-wide text-gray-400 uppercase transition-all duration-200 rounded hover:text-white focus:ring-2 focus:text-white focus:ring-gray-900 focus:ring-offset-2 focus:outline-none" role="button">
                             More News
                             <svg className="w-4 h-4 ml-1.5 -mt-0.5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7"></path>
@@ -52,7 +52,7 @@ function TrendingNews() {
                     <div className="lg:col-span-4 rounded-xl">
                         {OneSlicedNews.map((news) =>
                             <Link to={"news/" + news._id}>
-                                <section className="bg-white mb-7">
+                                <section className="bg-black mb-7">
                                     <div className="max-w-7xl">
                                         <div className="relative overflow-hidden rounded-xl">
                                             <div className="absolute inset-0">
@@ -63,7 +63,7 @@ function TrendingNews() {
                                             </div>
 
                                             <div className="relative p-8 sm:py-12 sm:px-16 sm:max-w-lg">
-                                                <span className="px-3 py-2 text-xs font-bold tracking-widest text-gray-900 uppercase bg-white rounded">
+                                                <span className="px-3 py-2 text-xs font-bold tracking-widest text-white uppercase bg-black rounded">
                                                     Featured
                                                 </span>
 
@@ -95,7 +95,7 @@ function TrendingNews() {
                     </div>
 
                     <div className="lg:col-span-3">
-                        <p className="text-xl font-bold text-gray-900">
+                        <p className="text-xl font-bold text-white">
                             Recent Trending News
                         </p>
 
@@ -105,16 +105,16 @@ function TrendingNews() {
                             {SlicedNews.map((news) =>
                                 <Link to={"news/" + news._id}>
                                     <div
-                                        className="mb-4 relative overflow-hidden transition-all duration-200 bg-white border border-gray-200 rounded-lg hover:shadow-lg hover:bg-gray-50 hover:-translate-y-1">
+                                        className="mb-4 relative overflow-hidden transition-all duration-200 bg-black border border-white-200 rounded-lg hover:shadow-lg hover:bg-black hover:-translate-y-1">
                                         <div className="p-4">
                                             <div className="flex items-start lg:items-center">
                                                 <img className="object-cover w-20 h-20 rounded-lg shrink-0"
                                                     src={news.newsImageUrl} alt="" />
                                                 <div className="ml-5">
-                                                    <p className="text-sm font-medium text-gray-900">
+                                                    <p className="text-sm font-medium text-white">
                                                         {news.datePublished}
                                                     </p>
-                                                    <p className="text-lg leading-7 font-bold text-gray-900 mt-2.5">
+                                                    <p className="text-lg leading-7 font-bold text-white mt-2.5">
                                                         <a title="">
                                                             {news.newsTitle}
                                                             <span className="absolute inset-0" aria-hidden="true"></span>

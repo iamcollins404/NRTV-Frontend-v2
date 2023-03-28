@@ -30,8 +30,6 @@ function Index() {
       {/* watch tv categories */}
       <WatchTVCategories />
 
-      <TopRectangleAd />
-
       {/* trending news higlights */}
       <TrendingNews />
 
