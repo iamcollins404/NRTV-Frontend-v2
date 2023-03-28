@@ -15,7 +15,7 @@ function MobileNavigation() {
                                     <path stroke-linecap="round" stroke-linejoin="round" d="M6 20.25h12m-7.5-3v3m3-3v3m-10.125-3h17.25c.621 0 1.125-.504 1.125-1.125V4.875c0-.621-.504-1.125-1.125-1.125H3.375c-.621 0-1.125.504-1.125 1.125v11.25c0 .621.504 1.125 1.125 1.125z" />
                                 </svg>
 
-                                <span class="tab tab-explore block text-xs text-white mt-2">HOME</span>
+                                <span class="tab tab-explore block text-xs text-white mt-2">Home</span>
                             </a>
                         </div>
 
@@ -27,7 +27,7 @@ function MobileNavigation() {
                                 </svg>
 
 
-                                <span class="tab tab-explore block text-xs text-white mt-2">WATCH SHOWS</span>
+                                <span class="tab tab-explore block text-xs text-white mt-2">Watch Shows</span>
                             </a>
                         </div>
 
@@ -38,7 +38,7 @@ function MobileNavigation() {
                                 </svg>
 
 
-                                <span class="tab tab-explore block text-xs text-white mt-2">NEWS</span>
+                                <span class="tab tab-explore block text-xs text-white mt-2">News</span>
                             </a>
                         </div>
 
@@ -48,7 +48,7 @@ function MobileNavigation() {
                                     <path stroke-linecap="round" stroke-linejoin="round" d="M11.25 11.25l.041-.02a.75.75 0 011.063.852l-.708 2.836a.75.75 0 001.063.853l.041-.021M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-9-3.75h.008v.008H12V8.25z" />
                                 </svg>
 
-                                <span class="tab tab-explore block text-xs text-white mt-2">ABOUT US</span>
+                                <span class="tab tab-explore block text-xs text-white mt-2">About Us</span>
                             </a>
 
                         </div>
