@@ -3,32 +3,32 @@ import newsBarnerImage from '../../assets/images/newsBarner.png'
 
 function AboutHeader() {
   return (
-    <section className="pt-12">
+    <section className="pt-12 bg-black">
         <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
             <div className="grid max-w-lg grid-cols-1 mb-10 mx-auto lg:max-w-full lg:items-center lg:grid-cols-2 gap-y-12 lg:gap-x-16">
                 <div>
                     <div className="text-center lg:text-left">
-                        <h1 className="text-4xl font-bold leading-tight text-gray-900 sm:text-5xl sm:leading-tight lg:leading-tight lg:text-6xl font-pj">A special station with entertaining programs for you.</h1>
-                        <p className="mt-2 text-lg text-gray-600 sm:mt-8 font-inter">For all time best entertainment shows you can always trust us because we are dedicated to entertaining you 24/7.</p>
+                        <h1 className="text-4xl font-bold leading-tight text-white sm:text-5xl sm:leading-tight lg:leading-tight lg:text-6xl font-pj">A special station with entertaining programs for you.</h1>
+                        <p className="mt-2 text-lg text-white sm:mt-8 font-inter">For all time best entertainment shows you can always trust us because we are dedicated to entertaining you 24/7.</p>
 
                         <div>
                         <ul class="mt-10 space-y-4">
-                        <li class="flex items-center">
-                            <svg class="w-6 h-6 mr-2 text-blue-600" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                        <li class="flex items-center text-white">
+                            <svg class="w-6 h-6 mr-2 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
                             </svg>
                             Entertaining content.
                         </li>
 
-                        <li class="flex items-center">
-                            <svg class="w-6 h-6 mr-2 text-blue-600" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                        <li class="flex items-center text-white">
+                            <svg class="w-6 h-6 mr-2 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
                             </svg>
                             Watch from anywhere.
                         </li>
 
-                        <li class="flex items-center">
-                            <svg class="w-6 h-6 mr-2 text-blue-600" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                        <li class="flex items-center text-white">
+                            <svg class="w-6 h-6 mr-2 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
                             </svg>
                             Stay entertained.
@@ -39,8 +39,8 @@ function AboutHeader() {
 
                     <div className="flex items-center justify-center mt-10 space-x-6 lg:justify-start sm:space-x-8">
                         <div className="flex items-center">
-                            <p className="text-3xl font-medium text-gray-900 sm:text-4xl font-pj">200+</p>
-                            <p className="ml-3 text-sm text-gray-900 font-pj">Entertaining<br />Shows</p>
+                            <p className="text-3xl font-medium text-white sm:text-4xl font-pj">200+</p>
+                            <p className="ml-3 text-sm text-white font-pj">Entertaining<br />Shows</p>
                         </div>
 
                         <div className="hidden sm:block">
@@ -54,8 +54,8 @@ function AboutHeader() {
                         </div>
 
                         <div className="flex items-center">
-                            <p className="text-3xl font-medium text-gray-900 sm:text-4xl font-pj">1M+</p>
-                            <p className="ml-3 text-sm text-gray-900 font-pj">Happy<br />Viewers</p>
+                            <p className="text-3xl font-medium text-white sm:text-4xl font-pj">1000 +</p>
+                            <p className="ml-3 text-sm text-white font-pj">Happy<br />Viewers</p>
                         </div>
                     </div>
                 </div>

@@ -13,7 +13,7 @@ function About() {
   })
 
   return (
-    <section>
+    <section className='bg-black'> 
       <Helmet>
         <meta charSet="utf-8" />
         <title>NRTV - About Nrtv</title>

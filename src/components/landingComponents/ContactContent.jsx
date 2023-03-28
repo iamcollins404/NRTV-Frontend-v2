@@ -4,28 +4,28 @@ import ContactUs from '../../assets/images/contactus.png'
 function ContactContent() {
     return (
         <div>
-               <section>
-            <div className="relative overflow-hidden bg-gray-100 ">
-                <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
-                    <section className="relative lg:pt-20 lg:pb-36">
-                        <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
-                            <div className="grid grid-cols-1 gap-y-8 lg:items-center lg:grid-cols-2 sm:gap-y-20 xl:grid-cols-5">
-                                <div className="text-center xl:col-span-2 lg:text-left md:px-16 lg:px-0">
-                                    <h1 className="mt-5 text-3xl font-bold text-gray-900 sm:text-4xl md:text-5xl lg:leading-tight xl:text-6xl">Contact us anytime from anywhere.</h1>
-                                    <p className="mt-5 text-lg font-medium text-gray-900 lg:mt-8">We are available 24/7 to attend to you needs. We appreciate your reviews and feedback. Our customer care support agents are readily available to serve you.</p>
-                                </div>
+            <section>
+                <div className="relative overflow-hidden bg-black">
+                    <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
+                        <section className="relative lg:pt-20 lg:pb-36">
+                            <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
+                                <div className="grid grid-cols-1 gap-y-8 lg:items-center lg:grid-cols-2 sm:gap-y-20 xl:grid-cols-5">
+                                    <div className="text-center xl:col-span-2 lg:text-left md:px-16 lg:px-0">
+                                        <h1 className="mt-5 text-3xl font-bold text-white sm:text-4xl md:text-5xl lg:leading-tight xl:text-6xl">Contact us anytime from anywhere.</h1>
+                                        <p className="mt-5 text-lg font-medium text-white lg:mt-8">We are available 24/7 to attend to you needs. We appreciate your reviews and feedback. Our customer care support agents are readily available to serve you.</p>
+                                    </div>
 
-                                <div className="xl:col-span-3">
-                                    <img className="w-full mx-auto scale-110" src={ContactUs} alt="" />
+                                    <div className="xl:col-span-3">
+                                        <img className="w-full mx-auto scale-110" src={ContactUs} alt="" />
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                    </section>
+                        </section>
+                    </div>
                 </div>
-            </div>
-        </section>
+            </section>
 
-            <section className="py-12 sm:py-16 lg:py-20 xl:py-24">
+            <section className="py-12 bg-black sm:py-16 lg:py-20 xl:py-24">
                 <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
                     <div className="grid grid-cols-1 mt-8 lg:grid-cols-2 lg:mt-12 gap-y-12 sm:gap-y-16 lg:gap-x-16 xl:gap-x-24">
                         <div className="pl-6 sm:pl-8">
@@ -40,7 +40,7 @@ function ContactContent() {
                         </div>
 
                         <div>
-                            <p className="text-base font-normal leading-7 text-gray-600 lg:text-lg lg:leading-8">
+                            <p className="text-base font-normal leading-7 text-white lg:text-lg lg:leading-8">
                                 As Nrtv our team members are available 24/7 to provide you with the best responses to meet your needs.
                                 Feel free to contact us at anytime if you have any queries or questions.
                             </p>
@@ -53,7 +53,7 @@ function ContactContent() {
                                             d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
                                     </svg>
                                     <div className="ml-4">
-                                        <h3 className="text-lg font-medium text-gray-900">
+                                        <h3 className="text-lg font-medium text-white">
                                             Office Hours
                                         </h3>
                                         <p className="mt-4 text-sm font-normal text-gray-600">
@@ -71,11 +71,11 @@ function ContactContent() {
                                         <path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
                                     </svg>
                                     <div className="ml-4">
-                                        <h3 className="text-lg font-medium text-gray-900">
+                                        <h3 className="text-lg font-medium text-white">
                                             Our Address
                                         </h3>
                                         <p className="mt-4 text-sm font-normal text-gray-600">
-                                        55 Van Praagh Road, Milton Park, Harare Zimbabwe
+                                            55 Van Praagh Road, Milton Park, Harare Zimbabwe
                                         </p>
                                     </div>
                                 </div>
@@ -87,7 +87,7 @@ function ContactContent() {
                                             d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                                     </svg>
                                     <div className="ml-4">
-                                        <h3 className="text-lg font-medium text-gray-900">
+                                        <h3 className="text-lg font-medium text-white">
                                             Office 2
                                         </h3>
                                         <p className="mt-4 text-sm font-normal text-gray-600">
@@ -103,11 +103,11 @@ function ContactContent() {
                                             d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
                                     </svg>
                                     <div className="ml-4">
-                                        <h3 className="text-lg font-medium text-gray-900">
+                                        <h3 className="text-lg font-medium text-white">
                                             Get In Touch
                                         </h3>
                                         <p className="mt-4 text-sm font-normal text-gray-600">
-                                        0242 721316/317
+                                            0242 721316/317
                                         </p>
                                     </div>
                                 </div>
@@ -117,7 +117,7 @@ function ContactContent() {
                 </div>
             </section>
 
-            <section className="py-12 overflow-hidden bg-gray-900 sm:py-16 lg:py-20 xl:py-24">
+            <section className="py-12 overflow-hidden bg-black sm:py-16 lg:py-20 xl:py-24">
                 <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
                     <div className="grid max-w-6xl grid-cols-1 mx-auto gap-y-12 lg:grid-cols-2 lg:gap-x-16 xl:gap-x-24">
                         <div className="relative flex flex-col justify-between max-w-lg lg:py-12 lg:max-w-none">

@@ -49,7 +49,7 @@ function News() {
             <NavBar />
             {
                 article.map((article) =>
-                    <section class="py-2 bg-white sm:py-2 lg:py-2">
+                    <section class="py-2 bg-black sm:py-2 lg:py-2">
                         <Helmet>
                             <meta charSet="utf-8" />
                             <title>NRTV - {article.newsTitle}</title>
@@ -59,7 +59,7 @@ function News() {
                         <div class="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
                             <div class="mt-12 sm:mt-16 lg:grid lg:grid-cols-12 lg:gap-x-16 xl:gap-x-24">
                                 <aside class="lg:col-span-4 lg:order-last lg:self-start lg:sticky lg:top-8">
-                                    <div class="overflow-hidden bg-white border border-gray-200">
+                                    <div class="overflow-hidden bg-black border border-white">
                                         <div class="px-4 py-5 sm:p-6">
                                             <h4 class="text-xs font-bold tracking-widest text-gray-400 uppercase">Sponsored Ads</h4>
 
@@ -79,12 +79,12 @@ function News() {
                                     <img class="w-full my-5 newsAricleImage" src={article.newsImageUrl} alt="" />
                                     <TopRectangleAd />
                                     <div class="max-w-2xl">
-                                        <h1 class="text-4xl font-bold text-gray-900 sm:text-5xl">{article.newsTitle}</h1>
-                                        <p class="mt-6 text-base font-bold font-medium text-gray-500">by {article.writtenBy}</p>
-                                        <p class="text-base font-bold font-medium text-gray-500 mb-10">{article.datePublished}</p>
+                                        <h1 class="text-4xl font-bold text-white sm:text-5xl">{article.newsTitle}</h1>
+                                        <p class="mt-6 text-base font-bold font-medium text-white">by {article.writtenBy}</p>
+                                        <p class="text-base font-bold font-medium text-white mb-10">{article.datePublished}</p>
                                     </div>
 
-                                    <p class="text-md">
+                                    <p class="text-md text-white">
                                         {parse(`${article.newsBody}`)}
                                     </p>
                                 </article>

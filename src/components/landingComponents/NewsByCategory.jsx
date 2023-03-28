@@ -52,22 +52,22 @@ function NewsByCategory() {
     } else {
         return (
             <div>
-                <section className="bg-gray-50">
-                    <section className="py-2 bg-white sm:py-2 lg:py-2">
+                <section className="bg-black">
+                    <section className="py-2 bg-black sm:py-2 lg:py-2">
                         <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
                             <div className="NewsHighlights mt-6">
-                                <p title="" className="inline-flex items-center text-xl font-bold leading-tight text-gray-900 xl:pr-8 group">
+                                <p title="" className="inline-flex items-center text-xl font-bold leading-tight text-white xl:pr-8 group">
                                     Welcome to NRTV News
                                 </p>
                             </div>
 
-                            <section className="bg-white mt-8">
+                            <section className="bg-black mt-8">
                                 <div>
                                     <div className="grid grid-cols-1 gap-y-8 lg:grid-cols-7 lg:gap-x-12">
                                         <div className="lg:col-span-4 rounded-xl">
                                             {OneSlicedNews.map((news) =>
                                                 <Link to={news._id}>
-                                                    <section className="bg-white mb-7">
+                                                    <section className="bg-black mb-7">
                                                         <div className="max-w-7xl">
                                                             <div className="latestNewsDiv relative overflow-hidden rounded-xl">
                                                                 <div className="absolute inset-0">
@@ -78,7 +78,7 @@ function NewsByCategory() {
                                                                 </div>
 
                                                                 <div className="relative p-8 sm:py-12 sm:px-16 sm:max-w-lg">
-                                                                    <span className="px-3 py-2 text-xs font-bold tracking-widest text-gray-900 uppercase bg-white rounded">
+                                                                    <span className="px-3 py-2 text-xs font-bold tracking-widest text-white uppercase bg-black rounded">
                                                                         Featured
                                                                     </span>
 
@@ -96,7 +96,7 @@ function NewsByCategory() {
                                                                     <div className="mt-12">
 
                                                                         <a title=""
-                                                                            className="inline-flex items-center justify-center px-6 py-3 text-base font-bold text-white transition-all duration-200 bg-indigo-600 border border-transparent rounded-lg hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-600"
+                                                                            className="inline-flex items-center justify-center px-6 py-3 text-base font-bold text-white transition-all duration-200 bg-indigo-600 border border-transparent rounded-lg hover:bg-black focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-600"
                                                                             role="button">
                                                                             Read full article
                                                                         </a>
@@ -111,7 +111,7 @@ function NewsByCategory() {
                                         </div>
 
                                         <div className="lg:col-span-3">
-                                            <p className="text-xl font-bold text-gray-900">
+                                            <p className="text-xl font-bold text-white">
                                                 Latest News
                                             </p>
 
@@ -121,16 +121,16 @@ function NewsByCategory() {
                                                 {SlicedNews.map((latestnews) =>
                                                     <Link to={latestnews._id}>
                                                         <div
-                                                            className="mb-4 relative overflow-hidden transition-all duration-200 bg-white border border-gray-200 rounded-lg hover:shadow-lg hover:bg-gray-50 hover:-translate-y-1">
+                                                            className="mb-4 relative overflow-hidden transition-all duration-200 bg-black border border-white rounded-lg hover:shadow-lg hover:bg-black hover:-translate-y-1">
                                                             <div className="p-4">
                                                                 <div className="flex items-start lg:items-center">
                                                                     <img className="object-cover w-20 h-20 rounded-lg shrink-0"
                                                                         src={latestnews.newsImageUrl} alt="" />
                                                                     <div className="ml-5">
-                                                                        <p className="text-sm font-medium text-gray-900">
+                                                                        <p className="text-sm font-medium text-white">
                                                                             {latestnews.datePublished}
                                                                         </p>
-                                                                        <p className="text-lg leading-7 font-bold text-gray-900 mt-2.5">
+                                                                        <p className="text-lg leading-7 font-bold text-white mt-2.5">
                                                                             <a title="">
                                                                                 {latestnews.newsTitle}
                                                                                 <span className="absolute inset-0" aria-hidden="true"></span>
@@ -150,12 +150,12 @@ function NewsByCategory() {
                                 </div>
                             </section>
 
-                            <section class="py-2 bg-white sm:py-2 lg:py-2">
+                            <section class="py-2 bg-black sm:py-2 lg:py-2">
                                 <div>
                                     <div>
-                                        <div class="lg:grid lg:grid-cols-12 lg:gap-x-16 xl:gap-x-24">
+                                        <div class="lg:grid lg:grid-cols-12 bg-black lg:gap-x-16 xl:gap-x-24">
                                             <aside class="mt-10 lg:col-span-3 lg:order-last lg:self-start lg:sticky lg:top-8">
-                                                <div class="overflow-hidden bg-white border border-gray-200">
+                                                <div class="overflow-hidden bg-black border border-white">
                                                     <div class="px-4 py-5 sm:p-6">
                                                         <h4 class="text-xs font-bold tracking-widest text-gray-400 uppercase">Sponsored Ads</h4>
 
@@ -173,11 +173,11 @@ function NewsByCategory() {
                                             </aside>
 
 
-                                            <div class="lg:col-span-9">
+                                            <div class="lg:col-span-9 bg-black">
                                                 {newsCategories.map((category) =>
                                                     <div className="mapandfilterJoined">
                                                         <div>
-                                                            <p title="" className="mt-10 inline-flex items-center text-xl font-bold leading-tight text-gray-900 xl:pr-8 group">
+                                                            <p title="" className="mt-10 inline-flex items-center text-xl font-bold leading-tight text-white xl:pr-8 group">
                                                                 {category}
                                                                 <svg className="w-5 h-5 ml-2 transition-all duration-200 transform group-hover:translate-x-1"
                                                                     xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"
@@ -190,15 +190,15 @@ function NewsByCategory() {
                                                         <div class="grid grid-cols-1 lg:grid-cols-3 sm:mt-7 md:grid-cols-3 gap-x-6 md:max-w-none">
                                                             {news.filter(news => news.newsCategory === category).sort().reverse().map((news) =>
                                                                 <Link to={news._id}>
-                                                                    <div className="newsCard flex flex-col overflow-hidden transition-all duration-200 transform bg-white 
-                                                                    border border-gray-100 shadow group rounded-xl hover:shadow-lg hover:-translate-y-1">
+                                                                    <div className="newsCard flex flex-col overflow-hidden transition-all duration-200 transform bg-black 
+                                                                    border border-white shadow group rounded-xl hover:shadow-lg hover:-translate-y-1">
                                                                         <a href="#" title="" className="flex shrink-0 aspect-w-4 aspect-h-3">
                                                                             <img className="newsCardImage object-cover w-full h-full transition-all duration-200 transform group-hover:scale-110"
                                                                                 src={`${news.newsImageUrl}`} alt="" />
                                                                         </a>
                                                                         <div className="flex-1 px-4 py-5 sm:p-6">
                                                                             <a href="#" title="" className="">
-                                                                                <p className="text-lg font-bold text-gray-900">
+                                                                                <p className="text-lg font-bold text-white">
                                                                                     {news.newsTitle}
                                                                                 </p>
                                                                                 <p className="newsBody mt-3 text-sm font-normal leading-6 text-gray-500 line-clamp-3">
@@ -209,13 +209,13 @@ function NewsByCategory() {
                                                                         <div className="px-4 py-5 mt-auto border-t border-gray-100 sm:px-6">
                                                                             <div className="flex items-center justify-between">
                                                                                 <div className="flex items-center space-x-2">
-                                                                                    <p className="text-sm font-medium text-gray-900">
+                                                                                    <p className="text-sm font-medium text-white">
                                                                                         {news.datePublished}
                                                                                     </p>
                                                                                 </div>
 
                                                                                 <a href="#" title="" className="" role="button">
-                                                                                    <svg className="w-5 h-5 text-gray-300 transition-all duration-200 group-hover:text-gray-900"
+                                                                                    <svg className="w-5 h-5 text-gray-300 transition-all duration-200 group-hover:text-white"
                                                                                         xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"
                                                                                         fill="none" stroke-linecap="round" stroke-linejoin="round">
                                                                                         <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
