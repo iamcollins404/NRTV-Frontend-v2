@@ -1,0 +1,215 @@
+::-webkit-scrollbar {
+    display: none;
+}
+
+.troubleCard {
+    background: linear-gradient(90deg, #44ff9a -0.55%, #44b0ff 22.86%, #8b44ff 48.36%, #ff6644 73.33%, #ebff70 99.34%)
+}
+
+.troubleGradient2 {
+    background: "linear-gradient(90deg, #44ff9a -0.55%, #44b0ff 22.86%, #8b44ff 48.36%, #ff6644 73.33%, #ebff70 99.34%"
+}
+
+.cardsForPricing {
+    background: linear-gradient(90deg, #44ff9a -0.55%, #44b0ff 22.86%, #8b44ff 48.36%, #ff6644 73.33%, #ebff70 99.34%)
+}
+
+.pricingFaq {
+    background: linear-gradient(90deg, #44ff9a -0.55%, #44b0ff 22.86%, #8b44ff 48.36%, #ff6644 73.33%, #ebff70 99.34%)
+}
+
+.pagesHeader {
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 63.06%, #ffffff 100%), linear-gradient(125deg, #faf2ff 35.95%, #fdffe7 99.07%) !important;
+}
+
+.BlogDetails {
+    background: linear-gradient(90deg, #44ff9a -0.55%, #44b0ff 22.86%, #8b44ff 48.36%, #ff6644 73.33%, #ebff70 99.34%)
+}
+
+.loginStyle {
+    background: linear-gradient(90deg, #44ff9a -0.55%, #44b0ff 22.86%, #8b44ff 48.36%, #ff6644 73.33%, #ebff70 99.34%)
+}
+
+.thefont {
+    font-size: 40px !important;
+}
+
+.logotext {
+    font-weight: bolder !important;
+    font-size: 19px !important;
+}
+
+
+@media screen and (min-width: 1025px) {
+    .sideOfAuth {
+        height: 100vh !important;
+    }
+}
+
+.sideBar {
+    height: 100vh !important;
+    ;
+}
+
+.sideNavprivacytextdiv {
+    margin-top: 80px !important;
+}
+
+.loginFormsDiv {
+    overflow-y: scroll;
+}
+
+.nrtvLogoImage {
+    width: 80px;
+    height: auto;
+}
+
+.border-gray-100 {
+    --tw-border-opacity: 1;
+    border-color: rgba(243, 244, 246, var(--tw-border-opacity));
+}
+
+.border-b {
+    border-bottom-width: 1px;
+}
+
+.authbackgroundImage {
+    height: 100% !important;
+}
+
+.OtpForms {
+    /* background-color: gray !important; */
+    border: 1px solid black;
+    padding-top: 10px !important;
+    padding-bottom: 15px !important;
+    width: auto !important;
+}
+
+.scrollSidebar {
+    overflow: auto;
+}
+
+.scrollSidebar2{
+    height: 224px;
+    overflow: auto;
+}
+
+.videoPreviewDiv{
+    height: 400px !important;
+}
+
+.othervideoPreviewDiv{
+    margin: 0px !important;
+    padding: 0px !important;
+}
+
+.contentModalBody{
+    text-align: left !important;
+    margin: 40px;
+}
+
+.playButtons{
+    align-items: flex-end !important;
+    text-align: left !important;
+}
+
+.thePlayBtn{
+    padding-top: 45% !important;
+}
+
+.filter-green{
+    filter: invert(48%) sepia(79%) saturate(2476%) hue-rotate(86deg) brightness(118%) contrast(119%);
+}
+.productCard{
+    height: 500px !important;
+}
+.contentCard{
+    height: 320px !important;
+}
+
+.imageForContentCard{
+    height: 170px !important;
+}
+
+.contentModalImage{
+    height: 260px !important;
+}
+
+.contentDescriptionText{
+    font-size: 14px ;
+}
+
+.asideAdBarner{
+    width: 100% !important;
+}
+
+/* .newsAricleImage{
+    height: 80vh !important;
+    width: 100% !important;
+} */
+
+.videoLoading{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+
+.notFoundItem{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.newsCardImg{
+    height: 160px !important;
+}
+
+.TextEditor{
+    height: 400px !important;
+}
+
+.newsCard{
+    height: 480px !important;
+    margin-top: 28px !important;
+}
+
+.newsCardImage{
+    height: 160px !important;
+}
+
+.newsBody{
+    display: -webkit-box;
+    -webkit-line-clamp: 4 !important;
+    -webkit-box-orient: vertical ;
+    overflow: hidden;
+}
+.latestNewsDiv{
+    height: 570px !important;
+}
+.productCardImage{
+    height: 200px !important;
+}
+/* .productsCard{
+    height: 600px !important;
+} */
+/* .nrtvLogoImage{
+    height: 60px;
+    margin-top: 5px;
+    width: 130px;
+
+} */
+
+.favLogo{
+    height: 10px !important;
+    width: 10px !important;
+}
+
+.sliderImages{
+    height: 35vh;
+    width: 100% !important;
+}
+
+.nrtvLogoImage2{
+    height: 19px !important;
+}
