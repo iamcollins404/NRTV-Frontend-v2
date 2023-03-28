@@ -33,6 +33,8 @@ function Watchtv() {
 
   const showsCategories = ["kids", "documentaries", "realityshows", "moviesanddrama", "news", "sports"]
 
+  const correctShowsCategories = ["Kids", "Documentaries", "Realityshows", "Moviesanddrama", "News", "Sports"]
+
   const [shows, setShows] = React.useState([])
 
   const [contentId, setContentId] = React.useState([])
@@ -126,7 +128,7 @@ function Watchtv() {
 
                       <div className="hidden xl:flex xl:space-x-10">
                         <a href="#" title="" className="inline-flex items-center px-1 pt-1 text-sm font-medium text-indigo-600 transition-all duration-200 border-b-2 border-indigo-600"> All </a>
-                        {showsCategories.map((shopCategory) =>
+                        {correctShowsCategories.map((shopCategory) =>
                           <a href="#" title="" className="inline-flex items-center px-1 pt-1 text-sm font-medium text-gray-500 transition-all duration-200 border-b-2 border-transparent hover:border-gray-300 hover:text-gray-900">{shopCategory}</a>
                         )}
 
