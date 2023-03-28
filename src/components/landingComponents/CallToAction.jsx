@@ -5,46 +5,48 @@ import TopRectangleAd from './topRectangleAd';
 
 function CallToAction() {
     return (
-        <div className='bg-gray-100 pb-10'>
-            <div className='px-4 mx-auto max-w-7xl sm:px-6 lg:px-8'>
-                <div className="relative py-12 bg-white sm:py-16 lg:py-20 ">
-                    <div className="absolute inset-0">
-                        <img className="backdrop-blur shadow object-cover object-right w-full h-full lg:object-center" src={HomePageBarner} alt="" />
-                    </div>
+        <div>
+            <section class="relative pt-12 overflow-hidden bg-black sm:pt-16">
+                <div class="relative px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
+                    <div class="max-w-4xl mx-auto text-center">
+                        <p class="text-sm font-normal tracking-widest uppercase">
+                            <span class="text-transparent bg-clip-text bg-gradient-to-r from-cyan-500 to-purple-500"> NRTV Zimbabwe </span>
+                        </p>
+                        <h1 class="mt-8 text-4xl font-normal text-white sm:text-5xl lg:text-6xl xl:text-7xl">World class content beyond your imagination.</h1>
 
-                    <div className="absolute inset-0 bg-gray-900 bg-opacity-40"></div>
+                        <div class="flex flex-col items-center justify-center px-8 mt-12 space-y-5 sm:space-y-0 sm:px-0 sm:space-x-5 sm:flex-row">
+                            <div class="relative inline-flex items-center justify-center w-full sm:w-auto group">
+                                <div class="absolute transition-all duration-200 rounded-full -inset-px bg-gradient-to-r from-cyan-500 to-purple-500 group-hover:shadow-lg group-hover:shadow-cyan-500/50"></div>
+                                <a href="#" title="" class="relative inline-flex items-center justify-center w-full px-8 py-3 text-base font-normal text-white bg-black border border-transparent rounded-full sm:w-auto" role="button"> 
+                                Live Stream Now </a>
+                            </div>
 
-                    <div className="relative px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl py-14">
-                        <div className="max-w-lg mx-auto text-center xl:max-w-2xl">
-                            <h1 className="text-3xl font-bold text-white sm:text-4xl xl:text-5xl">World Class Entertainment Beyond your imagination!</h1>
-                            <p className="max-w-lg mx-auto mt-6 text-base font-normal leading-7 text-gray-300">Welcome to Nrtv the best and hottest new TV station in Zimbabwe. We provide Unlimited movies, TV shows, and more. We are the future of Zimbabwean Broadcasting.</p>
-
-                            <form className="max-w-xl mx-auto mt-10">
-                                <div>
-                                    <label for="" className="sr-only">Livestream Shows Now</label>
-
-                                </div>
-
-                                <div>
-                                    <Link to="/watch">
-                                        <button
-                                            className="inline-flex items-center justify-center w-full px-6 py-4 text-sm font-bold tracking-widest text-white uppercase transition-all duration-200 bg-gray-800 
-                                    border border-transparent focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-900 focus:ring-white hover:bg-gray-700"
-                                        >
-                                            Livestream Shows Now
-                                        </button>
-                                    </Link>
-                                </div>
-                            </form>
+                            <a href="#" title="" class="inline-flex items-center justify-center w-full px-8 py-3 text-base font-normal text-white transition-all duration-200 bg-black border border-gray-600 rounded-full 
+                            sm:w-auto hover:border-white" role="button">Contact Us</a>
                         </div>
                     </div>
+
+                    <div class="relative mt-12 -mb-4 sm:-mb-10 lg:-mb-12 sm:mt-16 lg:mt-24">
+                        <div class="absolute top-0 transform -translate-x-1/2 left-1/2">
+                            <svg class="blur-3xl filter" width="645" height="413" viewBox="0 0 645 413" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M181.316 218.778C86.2529 123.715 -63.7045 134.94 31.3589 39.8762C126.422 -55.1873 528.427 41.1918 623.49 136.255C718.554 231.319 470.678 289.068 375.614 384.131C280.551 479.195 276.38 313.842 181.316 218.778Z" fill="url(#d)" />
+                                <defs>
+                                    <linearGradient id="d" x1="665.741" y1="178.506" x2="296.286" y2="474.62" gradientUnits="userSpaceOnUse">
+                                        <stop offset="0%"   />
+                                        <stop offset="100%" />
+                                    </linearGradient>
+                                </defs>
+                            </svg>
+                        </div>
+
+                        <div class="absolute inset-0">
+                            <img class="object-cover w-full h-full opacity-50" src="https://landingfoliocom.imgix.net/store/collection/dusk/images/noise.png" alt="" />
+                        </div>
+
+                        <img class="relative w-full max-w-5xl mx-auto" src="https://landingfoliocom.imgix.net/store/collection/dusk/images/hero/4/dashboard-mockup.png" alt="" />
+                    </div>
                 </div>
-
-
-            </div>
-
-            <TopRectangleAd />
-
+            </section>
         </div>
     )
 }
