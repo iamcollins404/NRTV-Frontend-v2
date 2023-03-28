@@ -8,6 +8,7 @@ import WatchTVCategories from '../components/landingComponents/WatchTVCategories
 import ReactGA from 'react-ga';
 import {Helmet} from "react-helmet";
 import TopRectangleAd from '../components/landingComponents/topRectangleAd'
+import MobileNavigation from '../components/account/mobileNavigation'
 
 function Index() {
 
@@ -35,6 +36,8 @@ function Index() {
 
       <DownloadMobileApp />
       <Footer />
+      
+      <MobileNavigation />
     </section>
   )
 }

@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Link } from "react-router-dom";
 import Logo from '../../assets/images/nrtvLogo.png'
 import { Grid, Switch } from "@nextui-org/react";
+import MobileNavigation from '../account/mobileNavigation';
 
 const NavBar = () => {
     const [showMenuIcon, setshowMenuIcon] = useState(false);
