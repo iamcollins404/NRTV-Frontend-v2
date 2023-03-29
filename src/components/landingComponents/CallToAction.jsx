@@ -2,6 +2,7 @@ import React from 'react'
 import HomePageBarner from '../../assets/images/homepageBarner.jpg'
 import { Link } from "react-router-dom";
 import TopRectangleAd from './topRectangleAd';
+import ShowsCollage from '../../assets/images/dashboard-mockup.jpg'
 
 function CallToAction() {
     return (
@@ -43,7 +44,7 @@ function CallToAction() {
                             <img class="object-cover w-full h-full opacity-50" src="https://landingfoliocom.imgix.net/store/collection/dusk/images/noise.png" alt="" />
                         </div>
 
-                        <img class="relative w-full max-w-5xl mx-auto" src="https://landingfoliocom.imgix.net/store/collection/dusk/images/hero/4/dashboard-mockup.png" alt="" />
+                        <img class="relative w-full max-w-5xl mx-auto" src={ShowsCollage} alt="" />
                     </div>
                 </div>
             </section>
