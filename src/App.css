@@ -217,3 +217,7 @@ body{
 .nrtvLogoImage2{
     height: 19px !important;
 }
+
+.showsCollage{
+    border-radius: 1% !important;
+}

@@ -44,7 +44,7 @@ function CallToAction() {
                             <img class="object-cover w-full h-full opacity-50" src="https://landingfoliocom.imgix.net/store/collection/dusk/images/noise.png" alt="" />
                         </div>
 
-                        <img class="relative w-full max-w-5xl mx-auto" src={ShowsCollage} alt="" />
+                        <img class="showsCollage relative w-full max-w-5xl mx-auto" src={ShowsCollage} alt="" />
                     </div>
                 </div>
             </section>
