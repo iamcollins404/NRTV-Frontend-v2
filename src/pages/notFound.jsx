@@ -16,7 +16,9 @@ function NotFound() {
         <link rel="canonical" href="http://mysite.com/example" />
       </Helmet>
 
-      notFound
+      <h5 className='text-white'>
+        notFound
+      </h5>
     </div>
   )
 }
