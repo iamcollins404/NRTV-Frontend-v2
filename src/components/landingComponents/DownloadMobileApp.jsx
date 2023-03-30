@@ -7,7 +7,7 @@ function DownloadMobileApp() {
                 <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
                     <div className="text-center">
                         <h2 className="text-3xl font-bold text-white sm:text-4xl xl:text-5xl font-pj">How it works</h2>
-                        <p className="max-w-md mx-auto mt-5 text-base font-normal text-gray-600 font-pj">With lots of entertaining programs we made our platform easy to use to ensure convenience and ease of access.</p>
+                        <p className="max-w-md mx-auto mt-5 text-base font-normal text-white font-pj">With lots of entertaining programs we made our platform easy to use to ensure convenience and ease of access.</p>
                     </div>
 
                     <div className="flex flex-col items-center max-w-md mx-auto mt-8 lg:mt-20 lg:flex-row lg:max-w-none">
@@ -100,7 +100,7 @@ function DownloadMobileApp() {
                         </svg>
                         <h2 className="mt-10 text-3xl font-bold leading-tight text-white sm:text-4xl lg:text-5xl">Download and Watch</h2>
                         <h2 className=" text-3xl font-bold leading-tight text-white sm:text-4xl lg:text-5xl">Your Favourite shows online </h2>
-                        <p className="max-w-xl mx-auto mt-4 text-base leading-relaxed text-gray-600">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis.</p>
+                        <p className="max-w-xl mx-auto mt-4 text-base leading-relaxed text-white">Download our mobile apps now and experience the best livestreaming moments.</p>
                     </div>
 
                     <div className="flex flex-col items-center justify-center mt-8 space-y-4 md:space-y-0 md:space-x-4 md:flex-row lg:mt-12">
@@ -122,7 +122,7 @@ function DownloadMobileApp() {
                         </a>
                     </div>
 
-                    <p className="mt-6 text-base text-center text-gray-600">It takes less than 2 minutes to setup on any device</p>
+                    <p className="mt-6 text-base text-center text-white">It takes less than 2 minutes to setup on any device</p>
                 </div>
             </section>
     </section>
