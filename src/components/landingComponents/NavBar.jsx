@@ -42,12 +42,6 @@ const NavBar = () => {
 
                     <nav className="hidden lg:flex lg:items-center lg:justify-center lg:space-x-12">
 
-                        <Link to="/watch">
-                            <a title="" className="text-base font-medium text-white transition-all duration-200 font-pj hover:text-opacity-50  focus:ring-gray-900 focus:ring-offset-2">
-                                Watch TV Online
-                            </a>
-                        </Link>
-
                         <Link to="/news">
                             <a title="" className="text-base font-medium text-white transition-all duration-200 font-pj hover:text-opacity-50  focus:ring-gray-900 focus:ring-offset-2">
                                 News
@@ -100,6 +94,17 @@ const NavBar = () => {
                                     </svg>
                                 </a>
                             </li>
+
+                            <li>
+                                <a href="#" title="" target="_blank" rel="noopener" className="inline-flex items-center justify-center w-10 h-10 text-white transition-all duration-200 rounded-full hover:bg-black hover:border focus:outline-none focus:bg-gray-200 focus:ring-2 focus:ring-offset-2 focus:ring-gray-200">
+                                    <span class="sr-only"> LinkedIn </span>
+                                    <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24">
+                                        <circle cx="4.983" cy="5.009" r="2.188"></circle>
+                                        <path d="M9.237 8.855v12.139h3.769v-6.003c0-1.584.298-3.118 2.262-3.118 1.937 0 1.961 1.811 1.961 3.218v5.904H21v-6.657c0-3.27-.704-5.783-4.526-5.783-1.835 0-3.065 1.007-3.568 1.96h-.051v-1.66H9.237zm-6.142 0H6.87v12.139H3.095z"></path>
+                                    </svg>
+                                </a>
+                            </li>
+
 
                             <Switch
                                 checked={true}
@@ -190,6 +195,16 @@ const NavBar = () => {
                                             </svg>
                                         </a>
                                     </li>
+
+                                    <li>
+                                <a href="#" title="" target="_blank" rel="noopener" className="inline-flex items-center justify-center w-10 h-10 text-white transition-all duration-200 rounded-full hover:bg-black hover:border focus:outline-none focus:bg-gray-200 focus:ring-2 focus:ring-offset-2 focus:ring-gray-200">
+                                    <span class="sr-only"> LinkedIn </span>
+                                    <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24">
+                                        <circle cx="4.983" cy="5.009" r="2.188"></circle>
+                                        <path d="M9.237 8.855v12.139h3.769v-6.003c0-1.584.298-3.118 2.262-3.118 1.937 0 1.961 1.811 1.961 3.218v5.904H21v-6.657c0-3.27-.704-5.783-4.526-5.783-1.835 0-3.065 1.007-3.568 1.96h-.051v-1.66H9.237zm-6.142 0H6.87v12.139H3.095z"></path>
+                                    </svg>
+                                </a>
+                            </li>
                                 </ul>
                             </div>
                         </div>
