@@ -16,8 +16,6 @@ import "slick-carousel/slick/slick-theme.css";
 
 import Slider from "react-slick";
 
-const tvCategories = ["Clothing", "Accessories", "Electronics", "Stationery", "Self Care"]
-
 function Watchtv() {
   const [wait, setWait] = React.useState(true)
 
@@ -105,9 +103,11 @@ function Watchtv() {
                       </div>
 
                       <div className="hidden xl:flex xl:space-x-10">
-                        <a href="#" title="" className="inline-flex items-center px-1 pt-1 text-sm font-medium text-indigo-600 transition-all duration-200 border-b-2 border-indigo-600"> All </a>
+                        <a href="#" title="" className="inline-flex items-center px-1 pt-1 text-sm font-medium text-white transition-all duration-200 border-b-2 border-transparent 
+                          hover:border-gray-300 hover:text-white"> All </a>
                         {correctShowsCategories.map((shopCategory) =>
-                          <a href="#" title="" className="inline-flex items-center px-1 pt-1 text-sm font-medium text-white transition-all duration-200 border-b-2 border-transparent hover:border-gray-300 hover:text-white">{shopCategory}</a>
+                          <a href="#" title="" className="inline-flex items-center px-1 pt-1 text-sm font-medium text-white transition-all duration-200 border-b-2 border-transparent 
+                          hover:border-gray-300 hover:text-white">{shopCategory}</a>
                         )}
 
                       </div>
