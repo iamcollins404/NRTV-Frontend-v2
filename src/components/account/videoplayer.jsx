@@ -38,8 +38,10 @@ function Videoplayer() {
 
   if (videoStillLoading) {
     return (
-      <div className='videoLoading'>
-        <img src="https://media.tenor.com/zecVkmevzcIAAAAC/please-wait.gif" alt="" srcset="" />
+      <div className='videoLoading text-center'>
+        <h2 className='text-white'>
+          Please wait - video loading
+        </h2>
       </div>
     )
   } else {

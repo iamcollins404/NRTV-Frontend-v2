@@ -41,6 +41,11 @@ const NavBar = () => {
                     </div>
 
                     <nav className="hidden lg:flex lg:items-center lg:justify-center lg:space-x-12">
+                        <Link to="/watch">
+                            <a title="" className="text-base font-medium text-white transition-all duration-200 font-pj hover:text-opacity-50  focus:ring-gray-900 focus:ring-offset-2">
+                                Watch TV Online
+                            </a>
+                        </Link>
 
                         <Link to="/news">
                             <a title="" className="text-base font-medium text-white transition-all duration-200 font-pj hover:text-opacity-50  focus:ring-gray-900 focus:ring-offset-2">
@@ -149,12 +154,6 @@ const NavBar = () => {
                                 <Link to="/about">
                                     <a title="" className="text-base font-medium text-white transition-all duration-200 font-pj hover:text-opacity-50  focus:ring-gray-900 focus:ring-offset-2">
                                         About Nrtv
-                                    </a>
-                                </Link>
-
-                                <Link to="/shop">
-                                    <a title="" className="text-base font-medium text-white transition-all duration-200 font-pj hover:text-opacity-50  focus:ring-gray-900 focus:ring-offset-2">
-                                        Nrtv Shop
                                     </a>
                                 </Link>
 
