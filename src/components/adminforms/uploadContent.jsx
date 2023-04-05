@@ -6,7 +6,7 @@ function UploadContent() {
   const [contentCoverImageUrl, setcontentCoverImageUrl] = React.useState()
   const [contentCategory, setcontentCategory] = React.useState()
   const [contentDescription, setcontentDescription] = React.useState()
-  const contentWatchUrl = "contentUploadWatchUrl"
+  const [contentWatchUrl, setcontentWatchUrl] = React.useState()
   const contentDuration = "contentDuration"
   const dateUploaded = "dateUploaded"
 
@@ -115,13 +115,13 @@ function UploadContent() {
                 focus:outline-none focus:ring-indigo-600 focus:border-indigo-600 sm:text-sm" 
                 value={contentCategory} onChange={(e) => setcontentCategory(e.target.value)}>
                   <option>Choose product category</option>
-                  <option value="live">Live</option>
-                  <option value="news">News</option>
-                  <option value="sports">Sports</option>
-                  <option value="kids">Kids</option>
-                  <option value="moviesanddrama">Movies and Drama</option>
-                  <option value="realityshows">Reality Shows</option>
-                  <option value="documentaries">Documentaries</option>
+                  <option value="Live">Live</option>
+                  <option value="News">News</option>
+                  <option value="Sports">Sports</option>
+                  <option value="Kids">Kids</option>
+                  <option value="Movies and Drama">Movies and Drama</option>
+                  <option value="Reality Shows">Reality Shows</option>
+                  <option value="Documentaries">Documentaries</option>
                 </select>
               </div>
             </div>
@@ -132,9 +132,14 @@ function UploadContent() {
           <div className="max-w-xl mx-auto">
             <div>
               <label htmlFor="" className="mb-4 block text-sm font-bold text-gray-900">Content Video Url</label>
-              <div className="relative sm:mt-0 sm:flex-1">
-                <input type="file" className="block w-full px-4 border py-3 placeholder-gray-500 border border-gray-300 rounded-lg focus:ring-indigo-600 focus:border-indigo-600 sm:text-sm caret-indigo-600" />
+              <div>
+              <div className="mt-2">
+                <input type="text" name="" id="" placeholder="" value={contentWatchUrl} 
+                onChange={(e) => setcontentWatchUrl(e.target.value)} className="block w-full px-4 py-3 
+                placeholder-gray-500 border-gray-300 border rounded-lg focus:ring-indigo-600 
+                focus:border-indigo-600 sm:text-sm caret-indigo-600" />
               </div>
+            </div>
             </div>
           </div>
         </div>
