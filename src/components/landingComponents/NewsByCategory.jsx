@@ -157,11 +157,11 @@ function NewsByCategory() {
                                             <aside class="mt-10 lg:col-span-3 lg:order-last lg:self-start lg:sticky lg:top-8">
                                                 <div class="overflow-hidden bg-black border border-white">
                                                     <div class="px-4 py-5 sm:p-6">
-                                                        <h4 class="text-xs font-bold tracking-widest text-gray-400 uppercase">Sponsored Ads</h4>
+                                                        <h4 class="text-xs font-bold tracking-widest text-white uppercase">Sponsored Ads</h4>
 
                                                         <ul class="mt-8 space-y-5">
                                                             <li>
-                                                                <a href="#" title="" class="flex text-base font-bold text-gray-500 hover:underline">Advertise Here On This Space</a>
+                                                                <a href="#" title="" class="flex text-base font-bold text-white hover:underline">Advertise Here On This Space</a>
                                                             </li>
                                                         </ul>
                                                     </div>
@@ -201,7 +201,7 @@ function NewsByCategory() {
                                                                                 <p className="text-lg font-bold text-white">
                                                                                     {news.newsTitle}
                                                                                 </p>
-                                                                                <p className="newsBody mt-3 text-sm font-normal leading-6 text-gray-500 line-clamp-3">
+                                                                                <p className="newsBody mt-3 text-sm font-normal leading-6 text-white line-clamp-3">
                                                                                     {parse(`${news.newsBody}`)}
                                                                                 </p>
                                                                             </a>
@@ -215,7 +215,7 @@ function NewsByCategory() {
                                                                                 </div>
 
                                                                                 <a href="#" title="" className="" role="button">
-                                                                                    <svg className="w-5 h-5 text-gray-300 transition-all duration-200 group-hover:text-white"
+                                                                                    <svg className="w-5 h-5 text-white transition-all duration-200 group-hover:text-white"
                                                                                         xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"
                                                                                         fill="none" stroke-linecap="round" stroke-linejoin="round">
                                                                                         <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
