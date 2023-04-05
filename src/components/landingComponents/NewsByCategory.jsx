@@ -8,7 +8,7 @@ import TopRectangleAd from './topRectangleAd';
 function NewsByCategory() {
     const [newsLoading, setNewsLoading] = React.useState(true)
 
-    const timeOut = setTimeout(navigateFunction, 5000)
+    const timeOut = setTimeout(navigateFunction, 4200)
 
     function navigateFunction() {
         setNewsLoading(false)
