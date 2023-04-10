@@ -41,7 +41,7 @@ const NavBar = () => {
                     </div>
 
                     <nav className="hidden lg:flex lg:items-center lg:justify-center lg:space-x-12">
-                        <Link to="/watch">
+                        <Link to="/watch" onClick={()=>{console.log("fff")}}>
                             <a title="" className="text-base font-medium text-white transition-all duration-200 font-pj hover:text-opacity-50  focus:ring-gray-900 focus:ring-offset-2">
                                 Watch TV Online
                             </a>

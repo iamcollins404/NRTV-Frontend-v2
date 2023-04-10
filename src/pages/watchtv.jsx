@@ -36,6 +36,8 @@ function Watchtv() {
   const [shows, setShows] = React.useState([])
 
   const [contentId, setContentId] = React.useState([])
+  const [showCategoryFilter, setshowCategoryFilter] = React.useState()
+  console.log(showCategoryFilter)
 
   // wait function
   const timeOut = setTimeout(navigateFunction, 500)
@@ -84,40 +86,44 @@ function Watchtv() {
           <div>
             <div class="bg-black px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
 
-              <header className="bg-black border-b border-gray-200">
+              <header className="bg-black lg:border-b lg:border-gray-200">
                 <div className="container px-4 mx-auto sm:px-6 lg:px-8">
                   <div className="flex justify-between h-16">
-                    <div className="flex items-center -m-2 xl:hidden">
+                    {/* <div className="flex items-center -m-2 xl:hidden">
                       <button type="button" className="inline-flex items-center justify-center p-2 text-white bg-black rounded-lg hover:text-white hover:bg-black focus:outline-none focus:ring-2 
                       focus:ring-offset-2 focus:ring-indigo-600">
                         <svg className="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                           <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
                         </svg>
                       </button>
-                    </div>
+                    </div> */}
 
                     <div className="flex ml-6 mr-auto xl:ml-0">
 
-                      <div className="flex items-center flex-shrink-0">
+                      {/* <div className="flex items-center flex-shrink-0">
                         <h5 className="block text-white w-auto h-8 lg:hidden">Watch Shows</h5>
-                      </div>
+                      </div> */}
 
-                      <div className="hidden xl:flex xl:space-x-10">
-                        <a href="#" title="" className="inline-flex items-center px-1 pt-1 text-sm font-medium text-white transition-all duration-200 border-b-2 border-transparent 
-                          hover:border-gray-300 hover:text-white"> All </a>
+                      <nav className="hidden lg:flex lg:items-center lg:justify-center lg:space-x-12">
+
+                        <Link to="/watch">
+                          <a title="" className="text-base font-medium text-white transition-all duration-200 font-pj hover:text-opacity-50  focus:ring-gray-900 focus:ring-offset-2">
+                            All
+                          </a>
+                        </Link>
+
                         {correctShowsCategories.map((shopCategory) =>
-                          <a href="#" title="" className="inline-flex items-center px-1 pt-1 text-sm font-medium text-white transition-all duration-200 border-b-2 border-transparent 
-                          hover:border-gray-300 hover:text-white">{shopCategory}</a>
+                          <Link to="/watch" onClick={() => { setshowCategoryFilter(shopCategory) }}>
+                            <a title="" className="text-base font-medium text-white transition-all duration-200 font-pj hover:text-opacity-50  focus:ring-gray-900 focus:ring-offset-2">
+                              {shopCategory}
+                            </a>
+                          </Link>
+
                         )}
 
-                      </div>
+                      </nav>
                     </div>
 
-                    <div className="flex items-center justify-end">
-                    
-
-                      
-                    </div>
                   </div>
                 </div>
               </header>
@@ -127,8 +133,8 @@ function Watchtv() {
                   {
                     showsCategories.map((category) =>
                       <div>
-                        <div className="my-8 flex items-center justify-center lg:justify-between">
-                          <div className="text-center sm:flex sm:items-end sm:space-x-16 sm:text-left">
+                        <div className="my-8 flex lg:justify-between">
+                          <div className=" sm:flex sm:items-end sm:space-x-16 sm:text-left">
                             <p className="text-2xl font-bold text-white">
                               {category}
                             </p>
