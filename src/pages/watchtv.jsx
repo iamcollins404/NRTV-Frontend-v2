@@ -87,7 +87,7 @@ function Watchtv() {
             <div>
               <div class="bg-black px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
 
-                <header className="bg-black lg:border-b lg:border-gray-200">
+                <header className="hidden lg:flex bg-black lg:border-b lg:border-gray-200">
                   <div className="container px-4 mx-auto sm:px-6 lg:px-8">
                     <div className="flex justify-between h-16">
 
@@ -112,7 +112,7 @@ function Watchtv() {
                 </header>
 
                 <div>
-                  <h2 className='mt-4 text-xs font-bold text-white sm:text-sm md:text-base'>Displaying {showCategoryFilter} Shows</h2>
+                  <h2 className='mt-4 text-xs font-bold text-white sm:text-sm sm:text-center md:text-base'>Displaying {showCategoryFilter} Shows</h2>
                 </div>
 
                 <section className="bg-black mt-10">
