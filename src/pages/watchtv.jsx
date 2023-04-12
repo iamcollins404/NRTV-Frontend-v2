@@ -112,7 +112,7 @@ function Watchtv() {
                 </header>
 
                 <div>
-                  <h2 className='mt-4 text-xs font-bold text-white sm:text-sm sm:text-center md:text-base'>Displaying {showCategoryFilter} Shows</h2>
+                  <h2 className='mt-4 text-xs font-bold text-white sm:text-sm md:text-base'>Displaying {showCategoryFilter} Shows</h2>
                 </div>
 
                 <section className="bg-black mt-10">
