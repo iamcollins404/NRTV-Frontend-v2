@@ -128,7 +128,7 @@ body{
     height: 500px !important;
 }
 .contentCard{
-    height: 320px !important;
+    height: 380px;
 }
 
 .imageForContentCard{
@@ -188,6 +188,14 @@ body{
     -webkit-box-orient: vertical ;
     overflow: hidden;
 }
+
+.watchCardText{
+    display: -webkit-box;
+    -webkit-line-clamp: 4 !important;
+    -webkit-box-orient: vertical ;
+    overflow: hidden;
+}
+
 .latestNewsDiv{
     height: 570px !important;
 }

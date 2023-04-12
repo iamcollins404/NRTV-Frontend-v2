@@ -166,21 +166,17 @@ function Watchtv() {
                                           <span className="absolute inset-0" aria-hidden="true"></span>
                                         </a>
                                       </h3>
+
                                       <div className="mt-2">
                                         <div className="flex items-center mt-4 space-x-2">
-                                          <p className="text-sm font-medium text-white">
-                                            <a href="#" title="" className="">
-                                              {shows.contentDuration}
+                                          <p className="text-sm watchCardText font-medium text-white">
+                                            <a href="#" title="" className="mb-10">
+                                              {shows.contentDescription}
                                             </a>
-                                          </p>
-                                          <span className="text-sm font-medium text-white">
-                                            •
-                                          </span>
-                                          <p className="text-sm font-medium text-white">
-                                            {shows.dateUploaded}
                                           </p>
                                         </div>
                                       </div>
+
                                     </div>
                                   </div>
                                 </div>
