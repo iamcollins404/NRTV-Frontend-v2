@@ -229,3 +229,7 @@ body{
 .showsCollage{
     border-radius: 1% !important;
 }
+
+.indexShowsImages{
+    height: 250px !important;
+}

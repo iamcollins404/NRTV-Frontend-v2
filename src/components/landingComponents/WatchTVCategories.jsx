@@ -32,7 +32,7 @@ function WatchTVCategories() {
                     <Link to="/watch">
                         <div className="relative group mb-5">
                             <div className="overflow-hidden aspect-w-4 aspect-h-2 rounded-2xl">
-                                <img className="object-cover w-full h-full transition-all duration-300 group-hover:scale-125" src={LiveTV} alt="" />
+                                <img className="indexShowsImages object-cover w-full h-full transition-all duration-300 group-hover:scale-125" src={LiveTV} alt="" />
                             </div>
 
                             <h3 className="mt-5 text-lg font-bold text-white">
@@ -48,7 +48,7 @@ function WatchTVCategories() {
                     <Link to="/watch">
                         <div className="relative group mb-5">
                             <div className="overflow-hidden aspect-w-4 aspect-h-2 rounded-2xl">
-                                <img className="object-cover w-full h-full transition-all duration-300 group-hover:scale-125" src={MoviesandDrama} alt="" />
+                                <img className="indexShowsImages object-cover w-full h-full transition-all duration-300 group-hover:scale-125" src={MoviesandDrama} alt="" />
                             </div>
 
                             <h3 className="mt-5 text-lg font-bold text-white">
@@ -64,7 +64,7 @@ function WatchTVCategories() {
                     <Link to="/watch">
                         <div className="relative group mb-5">
                             <div className="overflow-hidden aspect-w-4 aspect-h-2 rounded-2xl">
-                                <img className="object-cover w-full h-full transition-all duration-300 group-hover:scale-125" src={Documentaries} alt="" />
+                                <img className="indexShowsImages object-cover w-full h-full transition-all duration-300 group-hover:scale-125" src={Documentaries} alt="" />
                             </div>
 
                             <h3 className="mt-5 text-lg font-bold text-white">
