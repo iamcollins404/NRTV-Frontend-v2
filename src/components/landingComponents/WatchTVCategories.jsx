@@ -13,7 +13,7 @@ function WatchTVCategories() {
             <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
                 <Link to="/watch">
                 <div className="flex items-center justify-center text-center md:justify-between sm:text-left">
-                    <h2 className="text-2xl font-bold text-white sm:text-3xl">Watch TV Online</h2>
+                    <h2 className="text-2xl font-bold text-white sm:text-3xl">Watch Shows Online</h2>
 
                     <div className="hidden md:block">
                         <a title="" className="inline-flex items-center p-1 -m-1 text-xs font-bold tracking-wide text-white uppercase transition-all duration-200 rounded hover:text-white focus:ring-2 focus:text-white focus:ring-gray-900 focus:ring-offset-2 focus:outline-none" role="button">
@@ -32,12 +32,12 @@ function WatchTVCategories() {
                     <Link to="/watch">
                         <div className="relative group mb-5">
                             <div className="overflow-hidden aspect-w-4 aspect-h-2 rounded-2xl">
-                                <img className="object-cover w-full h-full transition-all duration-300 group-hover:scale-125" src={LiveTV} alt="" />
+                                <img className="indexShowsImages object-cover w-full h-full transition-all duration-300 group-hover:scale-125" src={LiveTV} alt="" />
                             </div>
 
                             <h3 className="mt-5 text-lg font-bold text-white">
                                 <a title="">
-                                    Live Tv
+                                    Trending Shows
                                     <span className="absolute inset-0" aria-hidden="true"></span>
                                 </a>
                             </h3>
@@ -48,7 +48,7 @@ function WatchTVCategories() {
                     <Link to="/watch">
                         <div className="relative group mb-5">
                             <div className="overflow-hidden aspect-w-4 aspect-h-2 rounded-2xl">
-                                <img className="object-cover w-full h-full transition-all duration-300 group-hover:scale-125" src={MoviesandDrama} alt="" />
+                                <img className="indexShowsImages object-cover w-full h-full transition-all duration-300 group-hover:scale-125" src={MoviesandDrama} alt="" />
                             </div>
 
                             <h3 className="mt-5 text-lg font-bold text-white">
@@ -64,7 +64,7 @@ function WatchTVCategories() {
                     <Link to="/watch">
                         <div className="relative group mb-5">
                             <div className="overflow-hidden aspect-w-4 aspect-h-2 rounded-2xl">
-                                <img className="object-cover w-full h-full transition-all duration-300 group-hover:scale-125" src={Documentaries} alt="" />
+                                <img className="indexShowsImages object-cover w-full h-full transition-all duration-300 group-hover:scale-125" src={Documentaries} alt="" />
                             </div>
 
                             <h3 className="mt-5 text-lg font-bold text-white">
