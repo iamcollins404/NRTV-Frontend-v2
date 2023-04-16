@@ -229,3 +229,11 @@ body{
 .showsCollage{
     border-radius: 1% !important;
 }
+
+.correctedNewsCategories{
+    font-size: 11px !important;
+}
+
+.slicedNews{
+    height: 65vh !important;
+}
