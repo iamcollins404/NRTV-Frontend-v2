@@ -230,6 +230,14 @@ body{
     border-radius: 1% !important;
 }
 
+
+.correctedNewsCategories{
+    font-size: 11px !important;
+}
+
+.slicedNews{
+    height: 75vh !important;
+}
 .indexShowsImages{
     height: 250px !important;
 }
