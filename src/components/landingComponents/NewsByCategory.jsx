@@ -50,7 +50,7 @@ function NewsByCategory() {
             <div>
                 <Helmet>
                     <meta charSet="utf-8" />
-                    <title>NRTV - News Article </title>
+                    <title>NRTV - News Articles </title>
                     <link rel="canonical" href="http://mysite.com/example" />
                 </Helmet>
 
@@ -207,7 +207,7 @@ function NewsByCategory() {
                                                     {newsCategories.map((category) =>
                                                         <div className="mapandfilterJoined">
                                                             <div class="sm:flex sm:items-center mt-6 sm:justify-between sm:space-x-8">
-                                                                <h2 class="text-lg font-bold text-white"> {category} Articles ( latest 10 )</h2>
+                                                                <h2 class="text-lg font-bold text-white"> {category} Articles</h2>
 
                                                                 <div class="mt-6 sm:mt-0 sm:shrink-0">
 
@@ -225,7 +225,7 @@ function NewsByCategory() {
                                                             </div>
 
                                                             <div class="grid grid-cols-1 lg:grid-cols-3  md:grid-cols-3 gap-x-6 md:max-w-none">
-                                                                {news.filter(news => news.newsCategory === category).sort().reverse().map((news) =>
+                                                                {news.filter(news => news.newsCategory === category ).sort().reverse().map((news) =>
                                                                     <Link to={news._id}>
                                                                         <div className="newsCard flex flex-col overflow-hidden transition-all duration-200 transform bg-black 
                                                border border-white shadow group rounded-xl hover:shadow-lg hover:-translate-y-1">
