@@ -75,7 +75,7 @@ function ContactContent() {
                                             Our Address
                                         </h3>
                                         <p className="mt-4 text-sm font-normal text-gray-600">
-                                            55 Van Praagh Road, Milton Park, Harare Zimbabwe
+                                            29 Argyll Drive, Newlands, Harare Zimbabwe
                                         </p>
                                     </div>
                                 </div>
