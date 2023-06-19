@@ -60,17 +60,19 @@ function App() {
           <Route path="/contact" element={<Contact />} />
 
           {/* auth routes */}
-          <Route path="/auth/login" element={<Login />} />
+          {/* <Route path="/auth/login" element={<Login />} />
           <Route path="/auth/signup" element={<Signup />} />
           <Route path="/auth/forgotpassword" element={<ForgotPassword />} />
-          <Route path="/auth/resetpassword/:userId" element={<ResetPassword />} />
+          <Route path="/auth/resetpassword/:userId" element={<ResetPassword />} /> */}
 
           {/* private protected routes */}
           <Route element={<PrivateRoutes />}>
             {/* account pages */}
-            <Route path="/account" element={<AccountBrowse />} />
+      
             <Route path="/account/watch/:videoId" element={<Videoplayer />} />
-            <Route path="/account/watch/live" element={<LiveTVBroadCast />} />
+
+            <Route path="/account" element={<AccountBrowse />} />
+            {/* <Route path="/account/watch/live" element={<LiveTVBroadCast />} />
             <Route path="/account/watch/moviesanddrama" element={<MoviesandDrama />} />
             <Route path="/account/watch/entertainment" element={<Entertainment />} />
             <Route path="/account/watch/documentaries" element={<Documentaries />} />
@@ -80,7 +82,7 @@ function App() {
             <Route path="/account/watch/news" element={<NewsContent />} />
             <Route path="/account/admincorner" element={<AdminCorner />} />
             <Route path="/account/admincorner/addnews" element={<AdminCornerAddNews />} />
-            <Route path="/account/admin-analytics" element={<AnalyticsPage />} />
+            <Route path="/account/admin-analytics" element={<AnalyticsPage />} /> */}
           </Route>
 
           {/* not found page */}
