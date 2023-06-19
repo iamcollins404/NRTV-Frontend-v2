@@ -18,12 +18,22 @@ function CallToAction() {
                         <div class="flex flex-col items-center justify-center px-8 mt-12 space-y-5 sm:space-y-0 sm:px-0 sm:space-x-5 sm:flex-row">
                             <div class="relative inline-flex items-center justify-center w-full sm:w-auto group">
                                 <div class="absolute transition-all duration-200 rounded-full -inset-px bg-gradient-to-r from-cyan-500 to-purple-500 group-hover:shadow-lg group-hover:shadow-cyan-500/50"></div>
-                                <a href="#" title="" class="relative inline-flex items-center justify-center w-full px-8 py-3 text-base font-normal text-white bg-black border border-transparent rounded-full sm:w-auto" role="button"> 
-                                Watch Shows Now </a>
+
+                                <Link to="/watch" role="button" class="relative inline-flex items-center justify-center w-full px-8 py-3 text-base font-normal text-white bg-black border border-transparent rounded-full sm:w-auto">
+                                    <a title="">
+                                        Watch Shows Now
+                                    </a>
+                                </Link>
+
                             </div>
 
-                            <a href="#" title="" class="inline-flex items-center justify-center w-full px-8 py-3 text-base font-normal text-white transition-all duration-200 bg-black border border-gray-600 rounded-full 
-                            sm:w-auto hover:border-white" role="button">Contact Us</a>
+                            <Link to="/contact" class="inline-flex items-center justify-center w-full px-8 py-3 text-base font-normal text-white transition-all duration-200 bg-black border border-gray-600 rounded-full 
+                            sm:w-auto hover:border-white" role="button">
+                                <a title="">
+                                    Contact Us
+                                </a>
+                            </Link>
+
                         </div>
                     </div>
 
@@ -33,7 +43,7 @@ function CallToAction() {
                                 <path d="M181.316 218.778C86.2529 123.715 -63.7045 134.94 31.3589 39.8762C126.422 -55.1873 528.427 41.1918 623.49 136.255C718.554 231.319 470.678 289.068 375.614 384.131C280.551 479.195 276.38 313.842 181.316 218.778Z" fill="url(#d)" />
                                 <defs>
                                     <linearGradient id="d" x1="665.741" y1="178.506" x2="296.286" y2="474.62" gradientUnits="userSpaceOnUse">
-                                        <stop offset="0%"   />
+                                        <stop offset="0%" />
                                         <stop offset="100%" />
                                     </linearGradient>
                                 </defs>
