@@ -4,8 +4,15 @@ import { Link } from "react-router-dom";
 import parse from 'html-react-parser';
 import { Helmet } from 'react-helmet';
 import TopRectangleAd from './topRectangleAd';
+import { useLocation } from "react-router-dom";
 
 function NewsByCategory() {
+    const { pathname } = useLocation(); 
+
+    React.useEffect(() => {
+      window.scrollTo(0, 0);
+    }, [pathname]);
+  
     const [newsLoading, setNewsLoading] = React.useState(false)
     const [FinishWaitingForNews, setFinishWaitingForNews] = React.useState(false)
 

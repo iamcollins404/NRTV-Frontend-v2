@@ -5,12 +5,19 @@ import AboutContent from '../components/landingComponents/AboutContent'
 import Footer from '../components/landingComponents/Footer'
 import ReactGA from 'react-ga'
 import { Helmet } from "react-helmet";
+import { useLocation } from "react-router-dom";
 
 function About() {
 
   React.useEffect(() => {
     ReactGA.pageview(window.location.pathname + window.location.search);
   })
+
+  const { pathname } = useLocation(); 
+
+  React.useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
 
   return (
     <section className='bg-black'> 

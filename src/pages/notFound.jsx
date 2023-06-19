@@ -2,8 +2,15 @@ import React from 'react';
 import NavBar from '../components/landingComponents/NavBar'
 import Footer from '../components/landingComponents/Footer'
 import { Link } from "react-router-dom";
+import { useLocation } from "react-router-dom";
 
 const NotFoundPage = () => {
+  const { pathname } = useLocation(); 
+
+    React.useEffect(() => {
+      window.scrollTo(0, 0);
+    }, [pathname]);
+
   return (
     <div>
       <NavBar />

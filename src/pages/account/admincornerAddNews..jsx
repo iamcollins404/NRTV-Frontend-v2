@@ -11,11 +11,18 @@ import LoadingButton from '../../components/authComponents/messages/loadingButto
 import ReactQuill from 'react-quill';
 import 'react-quill/dist/quill.snow.css';
 import { Helmet } from 'react-helmet';
+import { useLocation } from "react-router-dom";
 
 // import components
 import LoggedinAccountLayout from "../../components/account/loggedInLayout"
 
 function AdminAddNew() {
+    const { pathname } = useLocation(); 
+
+    React.useEffect(() => {
+      window.scrollTo(0, 0);
+    }, [pathname]);
+  
     const navigate = useNavigate();
     const [newsCategory, setnewsCategory] = React.useState()
     const [newsTitle, setnewsTitle] = React.useState()

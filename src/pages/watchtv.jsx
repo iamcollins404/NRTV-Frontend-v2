@@ -9,6 +9,7 @@ import axios from 'axios'
 import ReactGA from 'react-ga'
 import { Link } from "react-router-dom";
 import Helmet from 'react-helmet'
+import { useLocation } from "react-router-dom";
 
 // Import css files
 import "slick-carousel/slick/slick.css";
@@ -17,6 +18,13 @@ import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 
 function Watchtv() {
+  const { pathname } = useLocation(); 
+
+    React.useEffect(() => {
+      window.scrollTo(0, 0);
+    }, [pathname]);
+
+
   const [wait, setWait] = React.useState(true)
 
   var settings = {

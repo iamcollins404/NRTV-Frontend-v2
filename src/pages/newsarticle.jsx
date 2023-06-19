@@ -9,6 +9,7 @@ import { Loading, Grid } from "@nextui-org/react";
 import ReactGA from 'react-ga';
 import { Helmet } from "react-helmet";
 import TopRectangleAd from '../components/landingComponents/topRectangleAd'
+import { useLocation } from "react-router-dom";
 
 function News() {
 
@@ -43,6 +44,12 @@ function News() {
                 console.log(error);
             })
     });
+
+    const { pathname } = useLocation(); 
+
+    React.useEffect(() => {
+      window.scrollTo(0, 0);
+    }, [pathname]);
 
     return (
         <div>

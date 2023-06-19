@@ -8,12 +8,20 @@ import WatchTVCategories from '../components/landingComponents/WatchTVCategories
 import ReactGA from 'react-ga';
 import {Helmet} from "react-helmet";
 import TopRectangleAd from '../components/landingComponents/topRectangleAd'
+import { useLocation } from "react-router-dom";
 
 function Index() {
 
   React.useEffect(()=>{
     ReactGA.pageview(window.location.pathname + window.location.search);
   })
+
+  const { pathname } = useLocation(); 
+
+  React.useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
 
   return (
     <section>
