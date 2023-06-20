@@ -44,7 +44,7 @@ function Index() {
       <DownloadMobileApp />
       <Footer />
     </section>
-  )
+  ) 
 }
 
 export default Index
