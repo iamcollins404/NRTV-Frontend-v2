@@ -13,6 +13,7 @@ import Contact from './pages/contact'
 import Watch from './pages/watchtv'
 import News from './pages/news'
 import NewsArticlePage from './pages/newsarticle'
+import RequestAssets from './pages/requestassets';
 
 // import not found page
 import NotFoundPage from './pages/notFound'
@@ -58,6 +59,7 @@ function App() {
           <Route path="/shop" element={<Shop />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/request" element={<RequestAssets />} />
 
           {/* auth routes */}
           {/* <Route path="/auth/login" element={<Login />} />
